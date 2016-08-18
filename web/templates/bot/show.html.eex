@@ -1,0 +1,18 @@
+<h2>Show bot</h2>
+
+<ul>
+
+  <li>
+    <strong>Slack token:</strong>
+    <%= @bot.slack_token %>
+  </li>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @bot.name %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: "/bots/#{@bot.slack_token}/edit" %>
+<%= link "Back", to: "/" %>

@@ -1,0 +1,6 @@
+<h2>Edit bot</h2>
+
+<%= render "form.html", changeset: @changeset,
+action: "/bots/#{@bot.slack_token}" %>
+
+<%= link "Back", to: "/", class: "btn btn-success" %>

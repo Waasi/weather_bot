@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <h2>WeatherBot</h2>
+  <p class="lead">Easily incorporate a weather slack bot by adding your slash command token and a name for your bot.</p>
+
+  <a href=<%= bot_path(@conn, :new) %> class="btn btn-success" >Add a Slack WeatherBot</a>
+</div>
+
+<p>Link for Slack Slash Command Config: https://weatherbots.herokuapp.com/ask</p>
